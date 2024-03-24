@@ -1,0 +1,23 @@
+folksdev-webflux:
+  database:
+    host: 127.0.0.1
+    port: 5435
+    name: webfluxdb
+    schema: public
+    username: userwebfluxdb
+    password: passwordwebfluxdb
+    pool:
+      size:
+        initial: 3
+        max: 10
+
+spring:
+  flyway:
+    enabled: true
+    url: jdbc:postgresql://127.0.0.1:5435/webfluxdb
+    user: userwebfluxdb
+    password: passwordwebfluxdb
+    baseline-version: 0
+
+server:
+  port: 8084

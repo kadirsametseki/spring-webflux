@@ -1,6 +1,8 @@
 package com.folksdev.webflux.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.folksdev.webflux.config.converter.CourseMetadataToJsonConverter;
+import com.folksdev.webflux.config.converter.JsonToCourseMetadataConverter;
 import io.r2dbc.pool.ConnectionPool;
 import io.r2dbc.pool.ConnectionPoolConfiguration;
 import io.r2dbc.postgresql.PostgresqlConnectionConfiguration;

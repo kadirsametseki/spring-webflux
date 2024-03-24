@@ -27,6 +27,7 @@ public class Course implements Serializable, Persistable<UUID> {
     private String description;
     private Integer duration;
     private String teacher;
+    private CourseMetadata courseMetadata;
 
     @Transient
     private boolean isUpdated = false;

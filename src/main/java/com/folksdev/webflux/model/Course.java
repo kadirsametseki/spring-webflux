@@ -1,5 +1,6 @@
 package com.folksdev.webflux.model;
 
+import com.folksdev.webflux.model.metadata.CourseMetadata;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
